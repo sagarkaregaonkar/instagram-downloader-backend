@@ -38,9 +38,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.http.HttpStatus;
 @RestController
 @RequestMapping("/api/reels")
-@CrossOrigin(origins = {
-        "http://localhost:5173"
-})
+@CrossOrigin(origins = "https://instagram-downloader-frontend.onrender.com")
 public class ReelController {
 	
 
